@@ -8,6 +8,6 @@ module SimpleLineNotify
     conn.authorization :Bearer, token
     response = conn.post do |req|
       req.body = {message: message}
-    enda
+    end
 	end
 end
